@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-database.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-analytics.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyCOIfbS7fDtlH3_-ezvPi0f89I0n71HT4E",
+            authDomain: "todo-app-b7be2.firebaseapp.com",
+            databaseURL: "https://todo-app-b7be2.firebaseio.com",
+            projectId: "todo-app-b7be2",
+            storageBucket: "todo-app-b7be2.appspot.com",
+            messagingSenderId: "489646286133",
+            appId: "1:489646286133:web:3e3d3b23e1682d5cea987c",
+            measurementId: "G-9QSYDTPMDM"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
+</head>
+
+<body style="background-color: black;">
+    <br>
+    <div class="main">
+        <div class="d1">
+            <h1>
+                TODO LIST APPLICATION
+            </h1>
+            <br>
+        </div>
+        <div class="d1">
+            <input type="text" id="todo-item" placeholder="Enter Your Tasks"
+                class="btn btn-outline-light btn-lg btn-block">
+            <br>
+            <br>
+            <button id="myBtn" onclick="addtodo()" type="button" class="btn btn-outline-primary">Add Item</button>
+            <button onclick="deleteAll()" type="button" class="btn btn-outline-warning">Delete All</button>
+        </div>
+        <div>
+            <ul id="list">
+
+            </ul>
+        </div>
+    </div>
+    <script src=app.js></script>
+</body>
+
+</html>
