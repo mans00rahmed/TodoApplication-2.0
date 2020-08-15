@@ -1,11 +1,13 @@
 # TodoApplication-Inregrated with Firebase 🔥
 
-- Used CRUD of Realtime Firebase database
+- Used CRUD operations of Realtime Firebase database 
 # Functionalities
 - Add()
 - Edit()
 - Delete()
 - DeleteAll()
 <br>
-- Based on Javascript
-- Used structure of HTML & CSS
+# Based on :
+- Object Oriented Approach
+- Javascript
+- Structure of HTML & CSS
