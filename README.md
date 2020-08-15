@@ -7,7 +7,8 @@
 - Delete()
 - DeleteAll()
 <br>
+
 # Based on :
-- Object Oriented Approach
-- Javascript
-- Structure of HTML & CSS
+- Object Oriented Approach.
+- Javascript.
+- Structure of HTML & CSS.
