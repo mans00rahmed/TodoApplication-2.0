@@ -1,4 +1,4 @@
-# TodoApplication-Inregrated with Firebase 🔥
+# TodoApplication-Integrated with Firebase 🔥
 
 - Used CRUD operations of Realtime Firebase database 
 # Functionalities
