@@ -79,33 +79,22 @@ input.addEventListener("keyup", function (event) {
     }
 });
 
+// enter key working !!!!!
+var input = document.getElementById("todo-item");
+input.addEventListener("keyup", function (event) {
+    if (event.keyCode === 13) {
+        event.preventDefault();
+        document.getElementById("myBtn").click();
+    }
+});
 
+// enter key working !!!!!
+var input = document.getElementById("todo-item");
+input.addEventListener("keyup", function (event) {
+    if (event.keyCode === 13) {
+        event.preventDefault();
+        document.getElementById("myBtn").click();
+    }
+});
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// comleted to do app
