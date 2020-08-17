@@ -1,7 +1,7 @@
 # TodoApplication-Integrated with Firebase 🔥
 
 - Used CRUD operations of Realtime Firebase database 
-# Functionalities
+# Functionalities :
 - Add()
 - Edit()
 - Delete()
